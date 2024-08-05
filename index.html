@@ -4,57 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <title>index</title>
-    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-29dc4ee9.js"></script>
-    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-d51de945.css">
+    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-6cf5edfe.js"></script>
+    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-0dc0327f.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold p-0 vh-100">
+  <div class="container-fluid flex-column align-items-start p-0 h-100">
+    <div>
+    <h1><a class="navbar-brand p-0 m-0" href="#"><img class="img-fluid" src="/web-layout-training-vite/assets/logo-ANSWER-5336fb45.svg"
+          alt="logo"></a>
+    </h1>
 
-    <div class="card" style="width: 18rem">
-      <img src="/web-layout-training-vite/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
+    <ul class="navbar-nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link ps-0" href="#"><span class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+            <!-- align-bottom inline元素對齊方式 -->
+            analytics
+          </span>Dashboard</a>
+      <li class="nav-item">
+        <a class="nav-link ps-0" href="#"><span class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+            question_answer
+          </span>Question</a>
+      <li class="nav-item">
+        <a class="nav-link active link-success ps-0" aria-current="page" href="#"><span
+            class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-success">
+            assignment
+          </span>Assignment</a>
+      <li class="nav-item">
+        <a class="nav-link ps-0" href="#"><span class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+            video_library
+          </span>Course</a>
+      <li class="nav-item">
+        <a class="nav-link ps-0" href="#"><span class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+            supervisor_account
+          </span>Admin</a>
+      <li class="nav-item">
+        <a class="nav-link ps-0" href="#"><span class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+            settings
+          </span>Settings</a>
+    </ul>
+  </div>
+
+    <div class="d-flex user">
+      <div class="flex-shrink-0 me-3">
+        <img src="/web-layout-training-vite/assets/andychen-f14fef59.jpeg" alt="Andychen" width="40px" height="40px"
+          class="rounded-circle object-fit-cover">
+      </div>
+      <div class="flex-grow-1">
+        <p>Andy Chen</p>
+        <a href="mailto:andy0401@mail.com">andy0401@mail.com</a>
       </div>
     </div>
+  </div>
+</nav>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="footer">我是 footer</footer>
+    
     
   </body>
 </html>
