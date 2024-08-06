@@ -1,24 +1,54 @@
-.navbar {
-  background: #F8F9FA;
-  max-width: 296px;
+aside {
+  &.navbar {
+    background: #F8F9FA;
+    width: 296px;
 
-  h1 {
-    padding: 32px;
-  }
-  .material-symbols-outlined{
-    padding-left: 28px;
-  }
-  .nav-link{
-    padding-top: 0px;
-    padding-bottom: 26px;
+    .navbar-brand {
+      padding: 32px;
+    }
+
+    .material-symbols-outlined {
+      padding-left: 28px;
+    }
+
+    .nav-link {
+      padding-top: 0px;
+      padding-bottom: 26px;
+    }
   }
 }
 
-.user{
+.user {
   padding-left: 32px;
   padding-bottom: 32px;
-  a{
+
+  a {
     color: #6C757D;
     font-size: 14px;
+  }
+}
+
+.main{
+  margin: 0 32px;
+}
+
+.header{
+  h1{
+    padding: 32px;
+    padding-left: 0px;
+    padding-right: 34px;
+  }
+}
+
+.card-body{
+  padding: 17px 32px 22px 16px;
+  .flex-grow-1{
+    time{
+      font-size: 12px;
+      color: #6C757D;
+    }
+  }
+  hr{
+    margin-left: 48px;
   }
 }

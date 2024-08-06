@@ -16,3 +16,8 @@ a {
 	color: inherit;
 	display: inline-block;
 }
+
+code{
+	font-family: "Roboto Mono", monospace;
+	color: $success;
+}
