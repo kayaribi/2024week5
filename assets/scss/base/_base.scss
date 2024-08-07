@@ -2,7 +2,13 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -17,7 +23,24 @@ a {
 	display: inline-block;
 }
 
-code{
+code {
 	font-family: "Roboto Mono", monospace;
 	color: $success;
+}
+
+.material-symbols-outlined {
+	vertical-align: bottom;
+	font-variation-settings:
+		'FILL' 1,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 24
+}
+
+.icon-unfill {
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 24
 }

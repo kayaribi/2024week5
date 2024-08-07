@@ -1,6 +1,5 @@
 aside {
   &.navbar {
-    background: #F8F9FA;
     width: 296px;
 
     .navbar-brand {
@@ -23,32 +22,52 @@ aside {
   padding-bottom: 32px;
 
   a {
-    color: #6C757D;
     font-size: 14px;
   }
 }
 
-.main{
-  margin: 0 32px;
-}
-
-.header{
-  h1{
+.header {
+  h1 {
     padding: 32px;
     padding-left: 0px;
     padding-right: 34px;
   }
 }
 
-.card-body{
-  padding: 17px 32px 22px 16px;
-  .flex-grow-1{
-    time{
-      font-size: 12px;
-      color: #6C757D;
+.main {
+  margin-bottom: 32px;
+}
+
+.time,.chapter,.fz-12 {
+  font-size: 12px;
+}
+
+.user {
+  &.card-body {
+    padding: 17px 32px 22px 16px;
+
+    hr {
+      margin-left: 48px;  
+    }
+
+    .btn {
+      background-color: #F8F9FA;
+      border: 2px solid #CED4DA;
+      border-radius: 2px;
     }
   }
-  hr{
-    margin-left: 48px;
+}
+
+.card-header {
+  .more_vert {
+    margin-right: 17px;
   }
+}
+
+.dropdown-menu li:hover{
+  background-color: #F8F9FA;
+}
+
+.dropdown-toggle.success::after{
+  color: #198754;
 }
