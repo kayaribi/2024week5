@@ -1,0 +1,20 @@
+.level.dropdown-toggle::after {
+  color: black;
+}
+
+.collapsed .arrow_down {
+  display: block;
+}
+
+.arrow_down {
+  display: none;
+}
+
+.collapsed .arrow_up {
+  display: none;
+}
+
+
+.arrow_up {
+  display: block;
+}
