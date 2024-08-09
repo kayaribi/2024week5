@@ -8,8 +8,8 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Assignment</title>
-  <script type="module" crossorigin src="/2024week5/assets/main-5f5aa872.js"></script>
-  <link rel="stylesheet" href="/2024week5/assets/main-a8bff5a6.css">
+  <script type="module" crossorigin src="/2024week5/assets/main-22060cb1.js"></script>
+  <link rel="stylesheet" href="/2024week5/assets/main-94cbd9d0.css">
 </head>
 
 <body>
@@ -20,34 +20,34 @@
           alt="logo"></a>
       <ul class="navbar-nav flex-column">
         <li class="nav-item">
-          <a class="nav-link ps-0" href="#"><span
-              class="material-symbols-outlined align-bottom pe-4 border-start border-4 border-light">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 " href="#"><span
+              class="material-symbols-outlined align-bottom pe-4">
               <!-- align-bottom inline元素對齊方式 -->
               analytics
             </span>Dashboard</a>
         <li class="nav-item">
-          <a class="nav-link ps-0" href="#"><span
-              class="material-symbols-outlined pe-4 border-start border-4 border-light">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 " href="#"><span
+              class="material-symbols-outlined pe-4">
               question_answer
             </span>Question</a>
         <li class="nav-item">
-          <a class="nav-link active link-success ps-0" aria-current="page" href="index.html"><span
-              class="material-symbols-outlined pe-4 border-start border-4 border-success">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 " aria-current="page" href="index.html"><span
+              class="material-symbols-outlined pe-4">
               assignment
             </span>Assignment</a>
         <li class="nav-item">
-          <a class="nav-link ps-0" href="#"><span
-              class="material-symbols-outlined pe-4 border-start border-4 border-light">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 " href="#"><span
+              class="material-symbols-outlined pe-4">
               video_library
             </span>Course</a>
         <li class="nav-item">
-          <a class="nav-link ps-0" href="admin.html"><span
-              class="material-symbols-outlined pe-4 border-start border-4 border-light">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 link-success border-page" href="admin.html"><span
+              class="material-symbols-outlined pe-4">
               supervisor_account
             </span>Admin</a>
         <li class="nav-item">
-          <a class="nav-link ps-0" href="#"><span
-              class="material-symbols-outlined pe-4 border-start border-4 border-light">
+          <a class="nav-link mb-4 ps-0 pb-0 border-start border-4 " href="#"><span
+              class="material-symbols-outlined pe-4">
               settings
             </span>Settings</a>
       </ul>
@@ -82,7 +82,7 @@
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                   <div class="modal-header border-0 p-32">
                     <h5 class="fw-bold fs-4" id="exampleModalLabel">New Admin</h5>
@@ -178,7 +178,7 @@
           </div>
         </nav>
       </header>
-      <table class="table table-hover">
+      <table class="table table-hover mb-5">
         <thead>
           <tr>
             <th scope="col">ID
@@ -194,84 +194,241 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">#1</th>
-            <td>Emir Wicks</td>
-            <td>emir.wicks@mail.com</td>
-            <td>Yes</td>
-            <td class="text-end">
+            <th scope="row" class="py-3">#1</th>
+            <td class="py-3">Emir Wicks</td>
+            <td class="py-3">emir.wicks@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
               <!-- Button trigger modal -->
-              <button type="button" class="btn p-0 border-0" data-bs-toggle="modal" data-bs-target="#visibility">
+              <button type="button" class="btn p-0 border-0 me-4" data-bs-toggle="modal" data-bs-target="#visibility">
                 <span class="material-symbols-outlined">
                   visibility
                 </span>
               </button>
-              <span class="material-symbols-outlined">
-                edit
-              </span>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark" data-bs-toggle="modal"
+                data-bs-target="#editModal">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
             </td>
           </tr>
           <tr>
-            <th scope="row">#2</th>
-            <td>Zaina Goldsmith</td>
-            <td>zaina.goldsmith@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#2</th>
+            <td class="py-3">Zaina Goldsmith</td>
+            <td class="py-3">zaina.goldsmith@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#3</th>
-            <td>Mahima Lopez</td>
-            <td>mahima.lopez@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#3</th>
+            <td class="py-3">Mahima Lopez</td>
+            <td class="py-3">mahima.lopez@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#4</th>
-            <td>Pharrell Murray</td>
-            <td>pharrell.murray@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#4</th>
+            <td class="py-3">Pharrell Murray</td>
+            <td class="py-3">pharrell.murray@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#5</th>
-            <td>Annika Mcbride</td>
-            <td>annika.mcbride@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#5</th>
+            <td class="py-3">Annika Mcbride</td>
+            <td class="py-3">annika.mcbride@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#6</th>
-            <td>Fatimah Clark</td>
-            <td>fatimah.clark@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#6</th>
+            <td class="py-3">Fatimah Clark</td>
+            <td class="py-3">fatimah.clark@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#7</th>
-            <td>Klaudia Rhodes</td>
-            <td>klaudia.rhodes@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#7</th>
+            <td class="py-3">Klaudia Rhodes</td>
+            <td class="py-3">klaudia.rhodes@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#8</th>
-            <td>Tillie Lucero</td>
-            <td>tillie.lucero@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#8</th>
+            <td class="py-3">Tillie Lucero</td>
+            <td class="py-3">tillie.lucero@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#9</th>
-            <td>Sabrina Stephenson</td>
-            <td>sabrina.stephenson@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#9</th>
+            <td class="py-3">Sabrina Stephenson</td>
+            <td class="py-3">sabrina.stephenson@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
           <tr>
-            <th scope="row">#10</th>
-            <td>Annie Smith</td>
-            <td>annie.smith@mail.com</td>
-            <td>Yes</td>
+            <th scope="row" class="py-3">#10</th>
+            <td class="py-3">Annie Smith</td>
+            <td class="py-3">annie.smith@mail.com</td>
+            <td class="py-3">Yes</td>
+            <td class="text-end py-3">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn p-0 border-0 me-4">
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+              </button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border-0 fw-bold link-success text-dark">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+
+            </td>
           </tr>
         </tbody>
       </table>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end mb-32">
+          <li class="page-item">
+            <a class="page-link link-success fw-bold border-success" href="#" aria-label="Previous">
+              <span aria-hidden="true">&lt;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link border-success text-dark" href="#">1</a></li>
+          <li class="page-item"><a class="page-link border-success text-dark" href="#">2</a></li>
+          <li class="page-item"><a class="page-link border-success text-dark" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link link-success fw-bold border-success" href="#" aria-label="Next">
+              <span aria-hidden="true">&gt;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
 
     <!-- Modal -->
     <div class="modal fade" id="visibility" tabindex="-1" aria-labelledby="visibilityLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content p-4 d-inlineblock">
           <div class="d-flex">
             <div class="flex-shrink-0">
@@ -289,12 +446,12 @@
               </a>
               <div class="d-flex justify-content-between mb-4">
                 <p class="fs-14 bg-light d-inline py-1 px-2">Verified</p>
-                <button class="btn border-0 p-0" type="button" data-bs-toggle="collapse"
+                <button class="btn border-0 p-0 collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                  <span class="material-symbols-outlined arrow_down">
+                  <span class="material-symbols-outlined arrow_down text-success">
                     keyboard_arrow_down
                   </span>
-                  <span class="material-symbols-outlined arrow_up">
+                  <span class="material-symbols-outlined arrow_up text-success">
                     keyboard_arrow_up
                   </span>
                 </button>
@@ -302,15 +459,118 @@
               <div class="collapse" id="collapseExample">
                 <div class="d-flex justify-content-between">
                   <button type="button" class="btn btn-outline-danger py-2 px-32">Deactivate</button>
-                  <button type="button" class="btn btn-success  py-2 px-32">Edit</button>
+                  <button type="button" class="btn btn-success  py-2 px-32" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      
+    <!-- Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header border-0 p-32">
+            <h5 class="fw-bold fs-4" id="editModalLabel">Edit Admin</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-32 pb-40">
+            <form class="pb-4 mb-4 border-bottom">
+              <legend class="fs-4 fw-bold mb-3">Account</legend>
+              <div class="mb-3">
+                <label for="name" class="form-label fs-14 mb-1">Name</label>
+                <input type="name" id="name" class="form-control fs-3 border-dark rounded-1" placeholder="Emir Wicks"
+                  disabled>
+              </div>
+              <div>
+                <label for="email" class="form-label fs-14 mb-1">Email</label>
+                <input type="email" id="email" class="form-control fs-3 border-dark rounded-1"
+                  placeholder="emir.wicks@mail.com" disabled>
+              </div>
+            </form>
+            <div class="pb-4 mb-4 border-bottom">
+              <h5 class="fw-bold fs-4 mb-3">Verification</h5>
+              <div class="d-flex pb-3 justify-content-between">
+                <div class="d-flex gap-2">
+                  <span class="material-symbols-outlined text-success">
+                    check_circle
+                  </span>
+                  <p class="fw-bold">Verified</p>
+                </div>
+                <time datetime="2020/4/12">2020/4/12</time>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-secondary border-secondary fw-bold" type="button" disabled>Send
+                  Verification Mail</button>
+              </div>
+            </div>
+            <div class="pb-4 mb-4 border-bottom">
+              <h5 class="fw-bold fs-4 mb-3">Access Level</h5>
+              <select class="level form-select form-select-lg p-3 text-dark bg-white border-dark"
+                aria-label=".form-select-lg example">
+                <option selected>Admin</option>
+              </select>
+            </div>
+            <div class="pb-4 mb-4 border-bottom">
+              <h5 class="fw-bold fs-4 mb-3">Custom Access</h5>
+              <div class="form-check mb-3">
+                <input class="form-check-input border-dark" type="checkbox" value="" id="Lecture">
+                <label class="form-check-label" for="Lecture">
+                  Lecture
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input border-dark" type="checkbox" value="" id="Coupon">
+                <label class="form-check-label" for="Coupon">
+                  Coupon
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input border-dark" type="checkbox" value="" id="Message">
+                <label class="form-check-label" for="Message">
+                  Message
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input border-dark" type="checkbox" value="" id="Setting">
+                <label class="form-check-label" for="Setting">
+                  Setting
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input border-dark" type="checkbox" value="" id="Task Menux">
+                <label class="form-check-label" for="Task Menux">
+                  Task Menux
+                </label>
+              </div>
+            </div>
+            <div>
+              <h5 class="fw-bold fs-4 mb-3">Deactivate Account</h5>
+              <div class="d-flex gap-2 pb-3">
+                <span class="material-symbols-outlined text-danger">
+                  warning
+                </span>
+                <p class="text-danger pb-3">This cannot be undone!</p>
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-outline-danger" type="button">Deactivate This Account</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn btn-outline-success fw-bold py-8 px-5"
+              data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-success fw-bold py-8 px-5">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
 
 
 </body>
