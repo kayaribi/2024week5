@@ -17,6 +17,26 @@ aside {
   }
 }
 
+.nav-item {
+  .nav-link:hover {
+    color: #198754;
+  }
+
+  .border-start {
+    border-color: transparent !important;
+  }
+
+  .border-start:hover {
+    border-color: #198754 !important;
+  }
+}
+
+.nav-item {
+  .border-page {
+    border-color: #198754 !important;
+  }
+}
+
 .user {
   padding-left: 32px;
   padding-bottom: 32px;
@@ -38,7 +58,9 @@ aside {
   margin-bottom: 32px;
 }
 
-.time,.chapter,.fz-12 {
+.time,
+.chapter,
+.fz-12 {
   font-size: 12px;
 }
 
@@ -47,7 +69,7 @@ aside {
     padding: 17px 32px 22px 16px;
 
     hr {
-      margin-left: 48px;  
+      margin-left: 48px;
     }
 
     .btn {
@@ -64,10 +86,10 @@ aside {
   }
 }
 
-.dropdown-menu li:hover{
+.dropdown-menu li:hover {
   background-color: #F8F9FA;
 }
 
-.dropdown-toggle.success::after{
+.dropdown-toggle.success::after {
   color: #198754;
 }

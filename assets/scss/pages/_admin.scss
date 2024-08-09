@@ -18,3 +18,13 @@
 .arrow_up {
   display: block;
 }
+
+.pagination .text-dark:hover{
+  color: white !important;
+  background-color: $success !important;
+}
+
+.pagination .link-success:hover{
+  color: white !important;
+  background-color: $success !important;
+}
