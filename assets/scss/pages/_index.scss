@@ -1,3 +1,35 @@
 .index-title {
   font-size: 100px;
 }
+
+.header {
+  h2 {
+    padding: 32px;
+    padding-left: 0px;
+    padding-right: 34px;
+  }
+}
+
+.main {
+  margin-bottom: 32px;
+}
+
+.time,
+.chapter,
+.fz-12 {
+  font-size: 12px;
+}
+
+.card-header {
+  .more_vert {
+    margin-right: 17px;
+  }
+}
+
+.dropdown-menu li:hover {
+  background-color: #F8F9FA;
+}
+
+.dropdown-toggle.success::after {
+  color: #198754;
+}
